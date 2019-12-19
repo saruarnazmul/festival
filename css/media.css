@@ -49,12 +49,7 @@
     font-size: 20px;
 }
 /* gallery */
-.gallery {
-    padding: 25px 0;
-}
-.gallery-content a {
-    font-size: 16px;
-}
+
 .mt-15{
 	margin-top: 15px;
 }
@@ -184,13 +179,7 @@
     font-weight: 600;
 }
 /* gallery */
-.gallery-content a {
-    font-size: 16px;
 
-}
-.gallery {
-    padding: 30px 0;
-}
 
 
 }

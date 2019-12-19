@@ -45,10 +45,10 @@
         <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Blog</a>
+        <a class="nav-link" href="#blog">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" href="#">Support</a>
       </li>
       
     </ul>
@@ -56,7 +56,7 @@
   </div>
 </nav>
     <div class="banner-content text-center">
-      <h4>Hiring Festivel - 2020</h4>
+      <h4>Hiring Festival - 2020</h4>
       <h1>India’s Largest Online Hiring Event</h1>
       <p>Feb 13<sup>th</sup>  - 19<sup>th</sup>  </p>
       <button class="btn btn-custom">Register Now</button>
@@ -240,31 +240,31 @@
               </div>
               <div class="date-time">
                 <p class="or m-0">February</p>
-                <span style="font-size: 16px; font-weight: 600;">13, 14 & 15</span>
+                <span style="font-size: 16px; font-weight: 600;">13th -19th 2020</span>
               </div>
                 </div>
                 <!-- single end -->
                 <!-- single start -->
                 <div class="col-md-4">
                   <div class="fresher text-center mt-15">
-                <p>Middle<br>
+                <p>Entry<br>
                 <span style="font-size: 14px;">Level</span></p>
               </div>
               <div class="date-time">
                 <p class="or m-0">February</p>
-                <span style="font-size: 16px; font-weight: 600;">16 & 17</span>
+                <span style="font-size: 16px; font-weight: 600;">13th -19th 2020</span>
               </div>
                 </div>
                 <!-- single end -->
                 <!-- single start -->
                 <div class="col-md-4">
                   <div class="fresher text-center mt-15">
-                <p>Freshers  <br>
+                <p>Senior  <br>
                 <span style="font-size: 14px;">Level</span></p>
               </div>
               <div class="date-time">
                 <p class="or m-0">February</p>
-                <span style="font-size: 16px; font-weight: 600;">19</span>
+                <span style="font-size: 16px; font-weight: 600;">13th -19th 2020</span>
               </div>
                 </div>
                 <!-- single end -->
@@ -363,7 +363,7 @@
 
 
   <!-- gallery start -->
-  <section class="gallery">
+  <section class="gallery" id="blog">
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
@@ -376,7 +376,7 @@
         <!-- single start -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="gallery-img text-center">
-              <img src="images/auditoriam.jpg" alt="" class="img-fluid mt-15">
+              <img src="images/auditoriam.jpg" alt="" class="img-fluid lightbox mt-15">
               <div class="gallery-content">
                 <a href="#" class="text-uppercase">auditorium</a>
               </div>
@@ -387,7 +387,7 @@
         <!-- single start -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="gallery-img text-center">
-              <img src="images/reception.jpg" alt="" class="img-fluid mt-15">
+              <img src="images/reception.jpg" alt="" class="img-fluid lightbox mt-15">
               <div class="gallery-content">
                 <a href="#" class="text-uppercase">Reception</a>
               </div>
@@ -398,7 +398,7 @@
         <!-- single start -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="gallery-img text-center">
-              <img src="images/emplyer.jpg" alt="" class="img-fluid mt-15">
+              <img src="images/emplyer.jpg" alt="" class="img-fluid lightbox mt-15">
               <div class="gallery-content">
                 <a href="#" class="text-uppercase">Employer Booth</a>
               </div>
@@ -409,7 +409,7 @@
         <!-- single start -->
           <div class="col-md-3 col-sm-6 col-12">
             <div class="gallery-img text-center">
-              <img src="images/support.jpg" alt="" class="img-fluid mt-15">
+              <img src="images/support.jpg" alt="" class="img-fluid lightbox mt-15">
               <div class="gallery-content mt-sm-3">
                 <a href="#" class="text-uppercase">Support</a>
               </div>
@@ -513,6 +513,24 @@
        setInterval(function(){
            newYear();
        },1000)
+
+       $(document).ready(function () {
+    "use strict";
+    $(".lightbox").click(function () {
+        var imgsrc = $(this).attr('src');
+        $("body").append("<div class='img-popup'><span class='close-lightbox'>&times;</span><img src='" + imgsrc + "'></div>");
+        $(".close-lightbox, .img-popup").click(function () {
+            $(".img-popup").fadeOut(500, function () {
+                $(this).remove();
+            }).addClass("lightboxfadeout");
+        });
+
+    });
+    $(".lightbox").click(function () {
+        $(".img-popup").fadeIn(500);
+    });
+
+});
     </script>
 </body>
 </html>

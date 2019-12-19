@@ -1,7 +1,9 @@
-$(document).ready(function() {
-	$('.di').click('slow', function() {
-		$('.new').hide('slow', function() {
-			alert("this is nothing");
-		});
-	});
+$(document).ready(function(){
+    //FANCYBOX
+    //https://github.com/fancyapps/fancyBox
+    $(".fancybox").fancybox({
+        openEffect: "none",
+        closeEffect: "none"
+    });
 });
+   
