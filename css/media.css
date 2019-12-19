@@ -1,0 +1,212 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+/* header */
+.menu{
+		text-align: right;
+	}
+.nav-toggler-icon i{
+	color: #ff007a ;
+}
+.navbar-toggler{
+	border: none;
+}
+.navbar-toggler:focus{
+	outline: none;
+	border: 1px solid  #ff007a;
+}
+.banner-content {
+    padding-top: 15px;
+}
+.banner-content h4 {
+    font-size: 22px;
+}
+.banner-content h1 {
+    font-size: 25px;
+}
+.banner-content p {
+    font-size: 20px;
+}
+.btn-custom {
+    padding: 5px 10px;
+}
+/* common */
+.common-title {
+    font-size: 25px;
+}
+/* count */
+.countdown div {
+    height: 100px;
+    padding: 0 3px;
+    line-height: 0px;
+    line-height: 80px;
+    font-size: 45px;
+}
+/* live count */
+.live-dates {
+    padding: 25px 50px;
+}
+.liv-common p {
+    font-size: 20px;
+}
+/* gallery */
+.gallery {
+    padding: 25px 0;
+}
+.gallery-content a {
+    font-size: 16px;
+}
+.mt-15{
+	margin-top: 15px;
+}
+.sector-box:hover:after {
+    left: 255px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+}
+/* gallery start */
+.how-content-before {
+    text-align: left;
+    width: 150px;
+}
+.how-content-before p:nth-child(1) {
+    font-size: 16px;
+}
+.m-before p:nth-child(1):after{
+	margin-left: 31px !important;
+}
+.m-before1 p:nth-child(1):after{
+	margin-left: 10px !important;
+}
+.m-before2 p:nth-child(1):after{
+	margin-left: 2px !important;
+}
+.how-content-before p:nth-child(1):after {
+    margin-left: 51px;
+}
+.before-content-2nd {
+    margin-top: 13rem;
+}
+.before-content-3rd {
+    margin-top: 13rem;
+}
+.before-content-4th {
+    margin-top: 17rem;
+}
+/* for right side */
+.how-content-after {
+    text-align: left:;
+    width: 145px;
+    margin-right: auto;
+}
+.how-content-after p:nth-child(1) {
+    font-size: 16px;
+}
+.after-content-2nd {
+    margin-top: 12rem;
+}
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+	/* header */
+	.menu{
+		text-align: right;
+	}
+	/* banner */
+	.banner-content h4 {
+    font-size: 30px;
+}
+.banner-content h1 {
+    font-size: 35px;
+}
+.banner-content p {
+    font-size: 25px;
+}
+/* coutner */
+.countdown div {
+    padding: 0 10px;
+    font-size: 35px;
+}
+/* sector */
+.sector-box:hover:after {
+    left: 205px;
+    width: 45px;
+    height: 45px;
+}
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+   .banner-content {
+    padding-top: 40px;
+}
+
+.banner-content h4 {
+    font-size: 30px;
+}
+.banner-content h1 {
+    font-size: 35px;
+}
+.banner-content p {
+    font-size: 25px;
+}
+   .sector{
+  padding:  30px 0;
+}
+.md-15{
+	margin-top: 15px;
+}
+.sector-icon {
+    margin-left: 15rem;
+}
+   .sector-box:hover:after {
+    content: '';
+    bottom: 0px;
+    left: 18.5rem;
+    width: 40px;
+    height: 40px;
+    font-size: 14px;
+}
+.sector-box p:nth-child(2){
+	font-size: 14px;
+	}
+	.live-dates {
+    padding: 0 15px;
+}
+	.fresher p {
+    font-size: 18px;
+}
+.date-time p {
+    font-size: 18px;
+    font-weight: 600;
+}
+/* gallery */
+.gallery-content a {
+    font-size: 16px;
+
+}
+.gallery {
+    padding: 30px 0;
+}
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .sector-box:hover:after {
+    left: 175px;
+
+   
+ }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	
+
+
+
+}
