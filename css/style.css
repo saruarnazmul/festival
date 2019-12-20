@@ -172,6 +172,7 @@ header .overlay {
     padding: 20px 15px;
     box-shadow: 1px 0px 2px 1px;
     transition: 0.5s;
+    height: 185px;
      }
 .sector-box:hover:after{
   content: '';
